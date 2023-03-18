@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -8,23 +9,36 @@
 body {
     background-color: rgb(10, 10, 10);
 }
-
 .welcome{
-    font-family: Lobster;
-    text-align: center;
+    
+    color: white;
     font-size: 100px;
-    color: rgb(7, 7, 7);
-    transition: 100ms;
     
 }
-.header{
-    background-color: black;
-}
-.welcome:hover{
-    color:rgb(109, 109, 109)
-}
-.header:hover{
-    color:white;
-}
 
-
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: Lobster;
+}
+button{
+    color: white;
+    background-color: rgb(10, 10, 10);
+    border: 10px;
+    font-size: 25px;
+    font-family: Lobster;
+}
+li, a{
+    display: inline;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contact{
+    padding-top: 
+}
